@@ -1,0 +1,74 @@
+.bar-chart {
+  display: block;
+  width: 194px;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.bar-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.bar {
+  display: inline-block;
+  width: 30px;
+  height: 300px;
+  margin: 1em;
+  background-color: darkgray;
+}
+
+.bar-ele {
+  background-color: white;
+  height: 100%;
+}
+
+#bar1 .bar-ele {
+  animation-name: barvalue1;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes barvalue1 {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 70%;
+  }
+}
+
+#bar2 .bar-ele {
+  animation-name: barvalue2;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes barvalue2 {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 60%;
+  }
+}
+
+#bar3 .bar-ele {
+  animation-name: barvalue3;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes barvalue3 {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 20%;
+  }
+}
